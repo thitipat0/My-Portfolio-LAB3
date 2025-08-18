@@ -1,9 +1,9 @@
 // src/data/portfolioData.js
-import project1Img from '/src/assets/images/project1.png';
+import project1Img from '../assets/images/project1.png';
 import project2Img from '../assets/images/project2.png';
-import project3Img from '/src/assets/images/project3.png';
-import project4Img from '/src/assets/images/project4.png';
-import project5Img from '/src/assets/images/project5.png';
+import project3Img from '../assets/images/project3.png';
+import project4Img from '../assets/images/project4.png';
+import project5Img from '../assets/images/project5.png';
 
 export const CONTACT = {
     email: 'Nattasitth_ma67@live.ac.th',

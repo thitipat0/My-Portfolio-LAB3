@@ -5,11 +5,11 @@ import { FiMail, FiPhone, FiMapPin, FiGithub, FiLinkedin, FiTwitter } from 'reac
 
 function Contact() {
     const CONTACT = {
-        email: 'Nattasitth_ma67@live.ac.th',
-        phone: '+66 12 345 6789',
+        email: 'Caramailnomchomphu@gmail.com',
+        phone: '+66 95 678 1268',
         location: 'Chiang Mai, Thailand',
         socials: {
-            github: 'https://github.com/Nattasith0',
+            github: 'https://github.com/thitipat0',
             linkedin: 'https://www.linkedin.com/in/yourname',
             twitter: 'https://twitter.com/yourname'
         }

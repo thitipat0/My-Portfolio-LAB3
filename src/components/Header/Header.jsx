@@ -57,7 +57,7 @@ function Header() {
             <div className="container">
                 <div className="header-content">
                     <div className="logo">
-                        <h2>Nattasith M.</h2>
+                        <h2>Thitipat C.</h2>
                     </div>
 
                     <nav

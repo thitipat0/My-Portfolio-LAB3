@@ -1,34 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 :root[data-theme="light"] {
-    --bg-primary: #ffffff;
-    --bg-secondary: #f8fafc;
-    --bg-tertiary: #e2e8f0;
-    --text-primary: #1e293b;
-    --text-secondary: #64748b;
-    --text-tertiary: #94a3b8;
-    --accent-primary: #000000;
-    --accent-secondary: #1d4ed8;
-    --accent-tertiary: #dbeafe;
-    --border-color: #e2e8f0;
-    --shadow: 0 1px 3px rgb(0 0 0 / 0.1);
-    --shadow-lg: 0 10px 20px -5px rgb(0 0 0 / 0.15);
+    --bg-primary: #d2a679;      /* น้ำตาลอ่อนแบบชานม */
+    --bg-secondary: #f5e1c8;    /* ครีมอ่อน */
+    --bg-tertiary: #fff3e0;     /* ส้มอ่อน / นม */
+    
+    --text-primary: #3e2723;    /* น้ำตาลเข้ม */
+    --text-secondary: #5d4037;  /* น้ำตาลกลาง */
+    --text-tertiary: #8d6e63;   /* น้ำตาลอ่อน */
+    
+    --accent-primary: #000000;  /* ไข่มุกสีดำ */
+    --accent-secondary: #6d4c41;/* น้ำตาลเข้ม */
+    --accent-tertiary: #ffe0b2; /* ไฮไลท์สีครีมอ่อน */
+    
+    --border-color: #e0c097;    /* น้ำตาลอ่อนขอบ */
+    
+    --shadow: 0 1px 3px rgb(0 0 0 / 0.15);
+    --shadow-lg: 0 10px 20px -5px rgb(0 0 0 / 0.25);
 }
 
+
 :root[data-theme="dark"] {
-    --bg-primary: #0f172a;
-    --bg-secondary: #1e293b;
-    --bg-tertiary: #334155;
-    --text-primary: #f1f5f9;
-    --text-secondary: #cbd5e1;
-    --text-tertiary: #94a3b8;
-    --accent-primary: #60a5fa;
-    --accent-secondary: #3b82f6;
-    --accent-tertiary: #1e3a8a;
-    --border-color: #334155;
-    --shadow: 0 1px 3px rgb(0 0 0 / 0.3);
-    --shadow-lg: 0 10px 20px -5px rgb(0 0 0 / 0.4);
+    --bg-primary: #3e2723;      /* น้ำตาลเข้ม (พื้นหลังหลัก) */
+    --bg-secondary: #4e342e;    /* น้ำตาลกลาง */
+    --bg-tertiary: #6d4c41;     /* น้ำตาลอ่อน */
+    
+    --text-primary: #fff8e1;    /* ขาวนวล (เหมือนวิปครีม) */
+    --text-secondary: #ffe0b2;  /* ครีมอ่อน */
+    --text-tertiary: #bcaaa4;   /* น้ำตาลอ่อนหม่น */
+    
+    --accent-primary: #ffffff;  /* จุดเน้น (วิปครีม/ฟองนม) */
+    --accent-secondary: #d7ccc8;/* ไฮไลท์โทนครีม */
+    --accent-tertiary: #212121; /* น้ำตาล-ดำเข้ม */
+    
+    --border-color: #5d4037;    /* น้ำตาลเข้มขอบ */
+    
+    --shadow: 0 1px 3px rgb(0 0 0 / 0.4);
+    --shadow-lg: 0 10px 20px -5px rgb(0 0 0 / 0.5);
 }
+
 
 /* Reset และ Base Styles */
 * {
